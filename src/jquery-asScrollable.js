@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import asScrollbar from '../libs/jquery-asScrollbar.es.js';
+import asScrollbar from 'jquery-asScrollbar';
 import defaults from './defaults';
 import {
   getTime,
