@@ -1,4 +1,4 @@
-import $ from 'jQuery';
+import $ from 'jquery';
 import asScrollbar from '../libs/jquery-asScrollbar.es.js';
 import defaults from './defaults';
 import {
@@ -735,7 +735,6 @@ class asScrollable {
   }
 
   static _jQueryInterface(options, ...params) {
-    'use strict';
 
     if (typeof options === 'string') {
       let method = options;
